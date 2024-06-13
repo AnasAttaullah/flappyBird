@@ -5,7 +5,7 @@ import "kaboom/global";
 let scaleSet = 1;
 
 if (window.innerWidth <= 500) {
-  scaleSet = 0.6;
+  scaleSet = 1.2;
 } else if (window.innerWidth <= 1280) {
   scaleSet = 0.7;
 } else if (window.innerWidth > 3000) {
