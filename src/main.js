@@ -1,10 +1,22 @@
 import kaboom from "kaboom";
 import "kaboom/global";
 
+// Game scaling
+let scaleSet = 1;
+
+if (window.innerWidth <= 500) {
+  scaleSet = 0.6;
+} else if (window.innerWidth <= 1280) {
+  scaleSet = 0.7;
+} else if (window.innerWidth > 3000) {
+  scaleSet = 2.3;
+} else if (window.innerWidth > 2000) {
+  scaleSet = 1.5;
+}
+
 // Initialize
 kaboom({
-  fullscreen: false,
-  scale: 1,
+  scale: scaleSet,
 });
 
 // Load assets
