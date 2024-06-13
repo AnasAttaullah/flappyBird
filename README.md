@@ -12,7 +12,7 @@ To get a local copy up and running, follow these steps:
 1.  **Clone the Repository:**
 
 ```sh
-git  clone  https://github.com/anasattaullah/flappyBird
+git  clone  https://github.com/anasattaullah/flappyBird.git
 ```
 2. **Change directory :**
 ```
