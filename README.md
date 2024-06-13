@@ -1,7 +1,9 @@
 
 # Flappy Bird Clone with Kaboom.js
 
-Flappy Bird Clone built with [Kaboom.js](https://kaboomjs.com/)! This project is a simple recreation of the classic Flappy Bird game using the Kaboom.js game development library. 
+Flappy Bird Clone built with [Kaboom.js](https://kaboomjs.com/)! This project is a simple recreation of the classic Flappy Bird game using the Kaboom.js game development library.
+
+![flappy bird game](/www/sprites/screenshot.png)
 
 ## Installation
 
