@@ -3,16 +3,27 @@ import "kaboom/global";
 
 // Game scaling
 let scaleSet = 1;
-
-if (window.innerWidth <= 500) {
-  scaleSet = 1.2;
-} else if (window.innerWidth <= 1280) {
-  scaleSet = 0.7;
-} else if (window.innerWidth > 3000) {
-  scaleSet = 2.3;
-} else if (window.innerWidth > 2000) {
-  scaleSet = 1.5;
+function Setscaling() {
+  if (window.innerWidth <= 500) {
+    scaleSet = 1.3;
+  } else if (window.innerWidth <= 1280) {
+    scaleSet = 0.7;
+  } else if (window.innerWidth > 3000) {
+    scaleSet = 2.3;
+  } else if (window.innerWidth > 2000) {
+    scaleSet = 1.5;
+  }
+  // Scaling for wide display
+  if (window.innerHeight < window.innerWidth / 2) {
+    scaleSet -= 0.06;
+  }
+  // Reload page on window resize
+  window.addEventListener("resize", () => {
+    location.reload();
+  });
+  return scaleSet;
 }
+Setscaling();
 
 // Initialize
 kaboom({
