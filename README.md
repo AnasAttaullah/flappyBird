@@ -5,6 +5,9 @@ Flappy Bird Clone built with [Kaboom.js](https://kaboomjs.com/)! This project is
 
 ![flappy bird game](/www/sprites/screenshot.png)
 
+## 🎮 Demo
+Try the game at [itch.io](https://anasattaullah.itch.io/flappy-bird-clone).
+
 ## Installation
 
 To get a local copy up and running, follow these steps:
