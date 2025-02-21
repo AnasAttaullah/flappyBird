@@ -53,6 +53,6 @@ This will build the project and create a dist/game.zip file, excluding any .DS_S
 
   
 
--  `src` - source code for your kaboom project
+-  `src` - source code for the Game
 
--  `www` - distribution folder, contains your index.html, built js bundle and static assets
+-  `www` - distribution folder, contains the index.html, built js bundle and static assets
